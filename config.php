@@ -2,5 +2,5 @@
 $Host = 'Localhost';
 $Username = 'root';
 $Password = '1234';
-$Name = 'store';
-$conexao = new mysqli($Host,$Username,$Password,$Name);
+$dbName = 'store';
+$conexao = new mysqli($Host,$Username,$Password,$dbName);
