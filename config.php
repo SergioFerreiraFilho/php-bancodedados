@@ -1,6 +1,6 @@
 <?php
-$Host = 'Localhost';
-$Username = 'root';
-$Password = '1234';
-$DbName = 'store';
-$conexao = new mysqli($Host,$Username,$Password,$DbName);
+$host = 'Localhost';
+$username = 'root';
+$password = '1234';
+$dbName = 'store';
+$conexao = new mysqli($host,$username,$password,$dbName);
