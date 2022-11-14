@@ -1,3 +1,4 @@
+CREATE SCHEMA `store` ;
 DROP TABLE IF EXISTS `alunos`;
 CREATE TABLE `alunos` (
   `nome` varchar(45) NOT NULL,
